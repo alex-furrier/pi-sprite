@@ -30,7 +30,7 @@
 		"skills": [
 			"./skills"
 		],
-		"image": "https://safurrier.github.io/pi-sprite/assets/wendybot3000-demo.gif"
+		"image": "https://alex-furrier.github.io/pi-sprite/assets/wendybot3000-demo.gif"
 	},
 	"peerDependencies": {
 		"@earendil-works/pi-ai": "*",
