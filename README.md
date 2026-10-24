@@ -4,7 +4,7 @@
 
 It is not a pet simulator or desktop companion. The sprite makes agent state easier to read without adding a dashboard.
 
-![pi-sprite WendyBot3000 demo](https://safurrier.github.io/pi-sprite/assets/wendybot3000-demo.gif)
+![pi-sprite WendyBot3000 demo](https://alex-furrier.github.io/pi-sprite/assets/wendybot3000-demo.gif)
 
 The demo shows real Pi slash commands: importing a pet, opening `/context`, asking `/btw`, running `/recap`, and watching the bottom footer status update.
 
@@ -57,7 +57,7 @@ To author a new sprite with agent help, start the guided workflow:
 /pet create tiny desk cat with cozy pixel-art vibes
 ```
 
-For deeper custom-pet guidance, read the hosted [Sprite Authoring Guide](https://safurrier.github.io/pi-sprite/tutorials/authoring-sprites/).
+For deeper custom-pet guidance, read the hosted [Sprite Authoring Guide](https://alex-furrier.github.io/pi-sprite/tutorials/authoring-sprites/).
 
 If native images ever get stuck after changing renderers or restarting tmux, clean the terminal image layer and redraw:
 
@@ -245,7 +245,7 @@ Keep third-party reference sprites local until you verify their licenses. This h
 node skills/pi-sprite-authoring/scripts/download-petdex-examples.mjs --limit 12 --out /tmp/petdex-downloads
 ```
 
-For the full workflow, read the hosted [Sprite Authoring Guide](https://safurrier.github.io/pi-sprite/tutorials/authoring-sprites/). For a deterministic release-demo pet, see the [WendyBot3000 demo guide](https://safurrier.github.io/pi-sprite/tutorials/wendybot3000-demo/) and the repo-only [demo source](https://github.com/safurrier/pi-sprite/tree/main/demos/wendybot3000).
+For the full workflow, read the hosted [Sprite Authoring Guide](https://alex-furrier.github.io/pi-sprite/tutorials/authoring-sprites/). For a deterministic release-demo pet, see the [WendyBot3000 demo guide](https://alex-furrier.github.io/pi-sprite/tutorials/wendybot3000-demo/) and the repo-only [demo source](https://github.com/safurrier/pi-sprite/tree/main/demos/wendybot3000).
 
 ## `/context`
 
@@ -302,12 +302,12 @@ Both agents share the cwd. A BTW file edit can race a main-agent edit. BTW chang
 
 Start with the hosted docs. These links work on GitHub, npm, and installed package readers:
 
-- [Command Reference](https://safurrier.github.io/pi-sprite/reference/commands/) for slash-command lookup and side-thread boundaries
-- [Project Evolution](https://safurrier.github.io/pi-sprite/project-evolution/) for durable architectural decisions
+- [Command Reference](https://alex-furrier.github.io/pi-sprite/reference/commands/) for slash-command lookup and side-thread boundaries
+- [Project Evolution](https://alex-furrier.github.io/pi-sprite/project-evolution/) for durable architectural decisions
 
-- [Docs home](https://safurrier.github.io/pi-sprite/) for the user and contributor index
-- [Sprite Authoring Guide](https://safurrier.github.io/pi-sprite/tutorials/authoring-sprites/) for custom pet authoring
-- [Configuration Reference](https://safurrier.github.io/pi-sprite/reference/configuration/) for default pet state and sprite home setup
+- [Docs home](https://alex-furrier.github.io/pi-sprite/) for the user and contributor index
+- [Sprite Authoring Guide](https://alex-furrier.github.io/pi-sprite/tutorials/authoring-sprites/) for custom pet authoring
+- [Configuration Reference](https://alex-furrier.github.io/pi-sprite/reference/configuration/) for default pet state and sprite home setup
 
 Source docs live in `docs/`. MkDocs Material publishes them through GitHub Pages. Build them locally with:
 
@@ -335,7 +335,7 @@ Run the full verification path, including e2e smoke helpers:
 mise run verify
 ```
 
-Release publishing uses the hosted [Release Checklist](https://safurrier.github.io/pi-sprite/reference/release/).
+Release publishing uses the hosted [Release Checklist](https://alex-furrier.github.io/pi-sprite/reference/release/).
 
 Equivalent npm commands:
 

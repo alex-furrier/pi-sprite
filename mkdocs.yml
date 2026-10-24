@@ -1,8 +1,8 @@
 site_name: pi-sprite
 site_description: Terminal sprite companion, context visualizer, recap bubble, and side-thread helper for Pi
-site_url: https://safurrier.github.io/pi-sprite/
-repo_url: https://github.com/safurrier/pi-sprite
-repo_name: safurrier/pi-sprite
+site_url: https://alex-furrier.github.io/pi-sprite/
+repo_url: https://github.com/alex-furrier/pi-sprite
+repo_name: alex-furrier/pi-sprite
 edit_uri: edit/main/docs/
 
 theme:

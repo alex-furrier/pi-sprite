@@ -24,6 +24,8 @@ run `mise run verify` for UI, lifecycle, package, CI, or E2E changes.
 
 ## Gotchas
 
+- **DO** use `https://alex-furrier.github.io/` for this account's current project documentation. **NOT** use `safurrier.github.io`. **BECAUSE** the old Pages host returns 404 after the account rename; GitHub repository redirects do not redirect Pages.
+
 - **DO** preserve the non-features in `README.md` and
   `tests/non-features.test.ts`. **NOT** add autonomous personality, sound,
   pet economy, process management, large dashboards, or desktop behavior.
